@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  color: rgb(0, 0, 0);
+  background: #fff;
+  text-shadow: 1px 0px 2px #8dc4f0;
+  overflow-x: hidden;
+  width: 100%;
+}
+.body_container {
+  flex: 1;
+}
+.sidebar_container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sidebar{
+  display: flex;
+  width: 14rem;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.lines_icon{
+  display: flex;
+  border-radius: 5px;
+}
+
+.profile{
+display: flex;
+align-items: center;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
+.profile>img{
+  width: 100%;
+border-radius: 50%;
+}
+
+.groups{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+h3{
+  font-size: 1rem;
+  margin: 10px 0px 10px 0px
+}
+/* 
+header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+ 
+}
+
+.lines_icon {
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform 0.4s, background-color 0.4s;
+}
+
+.title {
+  text-align: start; /* Center the title */
+  flex: 3; /* Allow the title to grow and take up the remaining space */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for Home and AccountCircleRounded icons (you can customize further) */
+.icons svg {
+  margin: 0 10px;
+  font-size: 24px; /* Adjust the icon size as needed */
+}
+
+.icons svg:hover {
+  color: #ffcc00; /* Change icon color on hover */
+}
+
+/* Styling for the toggle button on hover */
+.lines_icon:hover {
+  transform: scale(1.2) rotate(180deg);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header2{
+  background: rgba(37, 48, 97, 1);
+  height: 126%;
+  width: 100%;
+}

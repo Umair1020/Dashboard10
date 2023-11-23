@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=HelveticaNeueCyr:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::before,
+::after {
+  border-width: 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgba(37, 48, 97, 1);
+}
+
+/* Adjust scrollbar handle and track */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Set the height of the scrollbar container based on content */
+.scrollable-container {
+  max-height: 400px;
+  overflow-y: auto;
+  /* Center the scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(37, 48, 97, 1);
+}
+
+/* Adjust scrollbar position */
+.scrollable-container::-webkit-scrollbar {
+  margin-left: -6px;
+  /* Adjust the position slightly to the left */
+  margin-right: -6px;
+  /* Adjust the position slightly to the right */
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+ul li a {
+  color: #000 !important;
+}
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Styles for the toggle switch */
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container span {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(37, 48, 97, 1);
+}
+
+/* Adjust scrollbar handle and track */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Set the height of the scrollbar container based on content */
+.scrollable-container {
+  max-height: 400px;
+  overflow-y: auto;
+  /* Center the scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(37, 48, 97, 1);
+}
+
+/* Adjust scrollbar position */
+.scrollable-container::-webkit-scrollbar {
+  margin-left: -6px;
+  /* Adjust the position slightly to the left */
+  margin-right: -6px;
+  /* Adjust the position slightly to the right */
+}
+
+
