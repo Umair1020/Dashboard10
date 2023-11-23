@@ -209,8 +209,8 @@ const Sidebar = ({ isDarkMode, toggleMode }) => {
                     <aside id="sidebar" className={`sidebar`} style={{ height: 'auto', overflowY: 'auto', background: "rgba(242, 245, 255, 1)" }}>
                         <br />
                         <img className='mx-auto my-3' src='/user.png' alt="User" />
-                        <h3 className='mx-auto fw-bold'>Mark Smith</h3>
-                        <p className='mx-auto'>Admin/Staff Member</p>
+                        <h3 className='mx-auto fw-bold text-dark'>Mark Smith</h3>
+                        <p className='mx-auto text-dark'>Admin/Staff Member</p>
                         <ul className="sidebar-nav mx-auto my-4" id="sidebar-nav">
                             <li className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}>
                                 <Link
